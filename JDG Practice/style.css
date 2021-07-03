@@ -1,0 +1,142 @@
+/***********GLOBAL STYLES*********/
+body {
+    margin: 0;
+    background-color: #191513;
+}
+
+/***********MAIN STYLES*********/
+.garden-practice-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 100%;
+    height: 55vh;
+}
+.garden-practice-wrapper__content {
+
+    background: -webkit-gradient(linear, center top, center bottom, from(rgba(140,198,63,0.74)),color-stop(50%, #FFFFFF));
+    background: -webkit-linear-gradient(top,rgba(140,198,63,0.74) ,#FFFFFF 50%);
+    background: linear-gradient(to bottom,rgba(140,198,63,0.74) ,#FFFFFF 50%);
+    width: 70%;
+    height: 800px;
+
+}
+
+.garden-practice-wrapper__content .content-title h1 {
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-left: 5px;
+}
+
+.garden-practice-wrapper__content .content-title h2 {
+    color: black;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-left: 5px;
+}
+.garden-practice-wrapper hr {
+    border: 1px solid black;
+    width: 98%;
+}
+
+/******NAV STYLES******/
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+nav {
+    background: -webkit-gradient(linear, left center, right center, from(#495537),color-stop(100%, #000000));
+    background: -webkit-linear-gradient(left,#495537 ,#000000 100%);
+    background: linear-gradient(to right,#495537 ,#000000 100%);
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 98%;
+}
+nav a {
+    font-size: 8px;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin-left: 5px;
+}
+nav a:selected, a:focus, a:visited, a:active {
+    background-color: #344340;
+    height: 44px;
+    width: auto;
+
+    text-align: center;
+}
+nav a:hover {
+    background-color: #455636;
+}
+/*WELCOME*/
+
+.garden-practice__welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.welcome-img {
+    display: flex;
+}
+
+.welcome-img img {
+    width: 188px;
+    height: 188px;
+    margin-left: 10px;
+}
+
+.welcome {
+    padding: 15px;
+}
+.welcome h3,
+.welcome p {
+    font-size: 10px;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+.garden-covid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.garden-covid__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #3B452D;
+    width: 98%;
+}
+.garden-covid p {
+    color: white;
+    font-size: 10px;
+    width: 50%;
+}
+.footer-wrapper {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-left: 5px;
+    width:99%;
+}
